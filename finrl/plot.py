@@ -8,8 +8,8 @@ import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import pyfolio
-from pyfolio import timeseries
+import pyfolio_reloaded
+from pyfolio_reloaded import timeseries
 
 from finrl import config
 from finrl.meta.data_processors.func import date2str
